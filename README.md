@@ -14,7 +14,7 @@ Bu proje, Kablosuz Sensör Ağları (WSN - Wireless Sensor Networks) üzerinde o
 Bu proje, değerli akademisyenimiz **Dr. Öğr. Üyesi HASAN SERDAR** tarafından verilen ödev kapsamında geliştirilmiştir. Projenin akademik derinliği, WSN'lerde yönlendirme protokolleri (TAG, LEACH) ve veri birleştirme teorisi üzerine temellendirilmiştir.
 
 * **Ödevi Veren:** Dr. Öğr. Üyesi HASAN SERDAR
-* **Geliştirici (Öğrenci):** [@JunnierDeveloper](https://github.com/JunnierDeveloper)
+* **Geliştirici (Öğrenci):** Nurullah Başar ([@JunnierDeveloper](https://github.com/JunnierDeveloper))
 
 ---
 
@@ -148,3 +148,14 @@ pip install simpy numpy pygame matplotlib
 Simülasyon tamamlandığında veya çalışma esnasında elde edilen çıktılar şu akademik bulguları kanıtlar:
 * **Trafik Düşüşü:** Ağ içi veri birleştirme (Aggregation) sayesinde iletilen paket sayısı yaklaşık **%70 - %85 oranında azalır**. Bu durum ağdaki veri çarpışmalarını (collision) ve darboğazları engeller.
 * **Enerji Tasarrufu:** Paket sayısının azalması, sensörlerin TX radyolarını çok daha az kullanmasını sağlayarak ağın toplam enerji tüketiminde ciddi bir tasarruf sağlar ve ağın ömrünü (lifetime) katlarca uzatır.
+
+---
+
+## 📹 Simülasyon Ekran Videosu
+
+Aşağıdaki medya oynatıcıdan orman yangını WSN simülasyonunun Pygame tabanlı gerçek zamanlı çalışma videosunu izleyebilirsiniz:
+
+<video src="0529.mp4" width="100%" controls></video>
+
+> [!NOTE]
+> Video dosyasını GitHub üzerinde tarayıcınızdan doğrudan oynatabilir veya projeyi yerel bilgisayarınıza klonladıktan sonra klasördeki `0529.mp4` dosyasını medya oynatıcınızla açıp izleyebilirsiniz.
