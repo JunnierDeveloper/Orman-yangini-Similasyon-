@@ -1,0 +1,22 @@
+# Virtual Environments
+env/
+venv/
+ENV/
+*.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# IDE / VS Code
+.vscode/
+
+# Temporary / lint files
+flake8.txt
+flake8_out.txt
+flake8_pg.txt
+Yeni Metin Belgesi.txt
+*.mp4
