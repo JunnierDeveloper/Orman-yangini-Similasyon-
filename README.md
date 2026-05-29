@@ -50,13 +50,13 @@ Aşağıdaki şemada uç sensörler, Küme Başları (CH) ve Ana İstasyon (Base
 
 ```mermaid
 graph TD
-    subgraph Yangın Bölgesi (Isı > 45°C)
+    subgraph "Yangın Bölgesi (Isı > 45°C)"
         S1[Sensör 1] -- "Ham Veri (E_TX)" --> CH1((Küme Başı 1 - CH))
         S2[Sensör 2] -- "Ham Veri (E_TX)" --> CH1
         S3[Sensör 3] -- "Ham Veri (E_TX)" --> CH1
     end
 
-    subgraph Güvenli Bölge (Isı <= 45°C)
+    subgraph "Güvenli Bölge (Isı <= 45°C)"
         S4[Sensör 4] -. "Ölçüm Yapar (E_SENSE) <br> İletim Yapmaz" .-> CH2((Küme Başı 2 - CH))
     end
 
