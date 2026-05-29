@@ -155,7 +155,7 @@ Simülasyon tamamlandığında veya çalışma esnasında elde edilen çıktıla
 
 Aşağıdaki medya oynatıcıdan orman yangını WSN simülasyonunun Pygame tabanlı gerçek zamanlı çalışma videosunu izleyebilirsiniz:
 
-![Simülasyon Videosu](0529.mp4)
+<video src="https://github.com/JunnierDeveloper/Orman-yangini-Similasyon-/raw/main/0529.mp4" width="100%" controls="controls"></video>
 
 > [!NOTE]
 > Video dosyasını GitHub üzerinde tarayıcınızdan doğrudan oynatabilir veya projeyi yerel bilgisayarınıza klonladıktan sonra klasördeki `0529.mp4` dosyasını medya oynatıcınızla açıp izleyebilirsiniz.
